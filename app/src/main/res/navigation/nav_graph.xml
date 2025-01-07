@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:startDestination="@id/scrollingFragment"
+        android:id="@+id/nav_graph">
+
+    <fragment
+    android:id="@+id/scrollingFragment"
+    android:name="com.example.yeschef.fragments.ScrollingFragment"
+    android:label="Browse Recipes">
+    <!-- Action to navigate to AddFragment -->
+    <action
+        android:id="@+id/action_scrollingFragment_to_addFragment"
+        app:destination="@id/addFragment" />
+    </fragment>
+
+    <fragment
+    android:id="@+id/addFragment"
+    android:name="com.example.yeschef.fragments.AddFragment"
+    android:label="Add Meal">
+    <action
+        android:id="@+id/action_addFragment_to_breakfastMealsFragment"
+        app:destination="@id/BreakfastMealsFragment" />
+    </fragment>
+
+    <fragment
+    android:id="@+id/BreakfastMealsFragment"
+    android:name="com.example.yeschef.fragments.BreakfastMealsFragment"
+    android:label="Breakfast Meals" />
+</navigation>

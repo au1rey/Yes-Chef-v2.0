@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#640080</color>
+    <color name="ingredient">#28A745</color>
+    <color name="step">#4AA0D5</color>
+    <color name="itemList">#0079AC</color>
+    <color name="pink">#FF69B4</color>
+    <color name="background">#dcdcdc</color>
+
+    <!-- colors.xml -->
+    <color name="bottom_nav_icon_color">#FF000000</color> <!-- Black icons -->
+    <color name="bottom_nav_text_color">#FF000000</color> <!-- Black text -->
+    <color name="bottom_nav_background_color">#FFFFFFFF</color> <!-- White background -->
+
+
+
+    <!-- New primary color for use in your layout -->
+    <color name="primaryColor">#FF9800</color> <!-- Use any color you like -->
+
+    <color name="chip_selected_color">#000</color>
+    <color name="chip_pressed_color">#000</color>
+    <color name="chip_unselected_color">#000</color>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background color and border -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#F5F5F5"/> <!-- Light gray background -->
+            <corners android:radius="16dp"/>
+        </shape>
+    </item>
+
+    <!-- Drop-down arrow -->
+    <item android:drawable="@drawable/ic_arrow_down"
+        android:gravity="right|center_vertical"/>
+</layer-list>

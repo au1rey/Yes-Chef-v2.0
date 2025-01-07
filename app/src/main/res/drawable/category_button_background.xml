@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- State when the button is pressed -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="12dp" />
+            <solid android:color="#FFA726" /> <!-- Change to a darker shade on press -->
+        </shape>
+    </item>
+
+    <!-- Default state (not pressed) -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="12dp" />
+            <solid android:color="#FFC107" /> <!-- Default background color -->
+        </shape>
+    </item>
+
+</selector>

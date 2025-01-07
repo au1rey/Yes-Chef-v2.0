@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme without ActionBar -->
+    <style name="Base.Theme.YesChef" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here if needed -->
+        <!-- You can add custom attributes like colorPrimary if required -->
+    </style>
+
+    <!-- Application theme inheriting from base theme -->
+    <style name="Theme.YesChef" parent="Base.Theme.YesChef">
+        <!-- Add app-specific customizations here if needed -->
+    </style>
+</resources>
