@@ -1,5 +1,9 @@
 Overview
 
+This is version 2.0 of the original YesChef application, you can find the link to that github here:
+https://github.com/Austin-bryan/YesChef.git
+This version has been expanded upon with new group members and has been moved to a seperate repository in order to preserve and honor the work of previous group members
+----------------------------------------------------------------
 YesChef is a Recipe Manager Android app that allows users to add, store, edit, view, search, and filter their own recipes. It also features an interactive Grocery List where users can easily create and manage their shopping lists. This app is perfect for anyone looking to organize their recipes and streamline their grocery shopping experience.
 
 Key Features
